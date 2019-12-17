@@ -1,6 +1,15 @@
+/* eslint-disable no-console */
 // TODO: write your code here
-import sum from './basic';
+import Settings from './Settings';
 
-console.log('worked');
+const settings = new Settings();
 
-console.log(sum([1, 2]));
+console.log(settings.defaultSettings);
+
+settings.changeSettings('music', 'rock');
+settings.changeSettings('theme', 'light');
+settings.changeSettings('dificulty', 'hard');
+
+console.log(settings.usersSettings);
+
+console.log(settings.settings);

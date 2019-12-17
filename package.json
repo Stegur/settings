@@ -1,7 +1,7 @@
 {
-  "name": "clean-functions",
+  "name": "user-settings",
   "version": "1.0.0",
-  "description": "clean-functions",
+  "description": "user settings",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -16,7 +16,7 @@
     "show:dist": "live-server dist"
   },
   "keywords": [
-    "clean-functions"
+    "user settings"
   ],
   "author": "Stegur",
   "license": "ISC",
